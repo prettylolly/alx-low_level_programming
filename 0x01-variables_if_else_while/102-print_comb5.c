@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * mai - mainblock
+ * main - mainblock
  *
  * Description: prints double numbers
  *
