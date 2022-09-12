@@ -2,7 +2,7 @@
 
 /**
  * main - main block 
- * Description - prints the alphabet in lowercase,
+ * Description: prints the alphabet in lowercase,
  *
  * Retur: Always 0 (Success)
  */
