@@ -1,4 +1,4 @@
-#include stdio.h>
+#include <stdio.h>
 
 /**
  * main -main block
@@ -14,7 +14,7 @@ int main(void)
 	int ch;
 
 	for (ch = 'z'; ch >= 'a'; ch--)
-		putchar(ch);
-		putchar('\n');
-		return (0);
+	putchar(ch);
+	putchar('\n');
+	return (0);
 }
