@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	it ch;
+	int ch;
 
 	for (ch = 'a'; ch <'z'; ch++)
 	{
