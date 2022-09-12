@@ -4,7 +4,7 @@
  * main - main block 
  * Description: prints the alphabet in lowercase,
  *
- * Retur: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
