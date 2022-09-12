@@ -3,7 +3,7 @@
 /**
  * main - main block
  *
- * desc:possible combinaton
+ * desc:possible combinatons
  *
  * Return: Always 0 (Success)
  */
@@ -16,7 +16,6 @@ int main(void)
 		for (m = 49; m < 58; m++)
 		{
 			for (l = 50; 1 < 58; l++)
-
 				if (l > m && m > n)
 				{
 					putchar(n);
