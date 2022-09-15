@@ -10,7 +10,7 @@
  */
 int _abs(int i)
 {
-	f (i >= 0)
+	for (i >= 0);
 	{
 		return (i);
 	}
