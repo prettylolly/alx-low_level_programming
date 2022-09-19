@@ -1,24 +1,14 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
- * _isupper - entry point
+ * reset_to_98 - a function that takes a pointer to an int as parameter and
+ * updates the value it points to to 98
+ * @n: the integer adresse
  *
- * Description : checks for upper case of the alphabets
- *
- *@c :  alphabets to be checked
- *
- * Return: 1 if c is upper else 0
+ * Return: 1 or 0
  */
 
-int _isupper(int c)
+void reset_to_98(int *n)
 {
-	if (c > 64 && c < 91)
-	{
-	return (1);
-	}
-	else
-	{
-	return (0);
-	}
+	*n = 98;
 }
