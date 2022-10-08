@@ -32,6 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s[i] = s1[i];
 		i++;
 	}
+
 	while (n < len2 && i < (len1 + n))
 		s[i++] = s2[j++];
 
